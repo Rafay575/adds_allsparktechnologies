@@ -16,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Rajdhani Font CDN */}
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
