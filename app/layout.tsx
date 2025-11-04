@@ -6,6 +6,30 @@ const plusJakarta = Plus_Jakarta_Sans({
   variable: "--font-sans",     // expose as CSS var
   display: "swap",
 });
+export const metadata = {
+  title: "Build Your Website | AllSpark Technologies",
+  description:
+    "Launch your business online with AllSpark Technologies’ website-building platform. Fast, professional, and tailored to help you grow with modern web tools.",
+  keywords:
+    "website builder, web development, build your website, AllSpark Technologies, business website, custom website, launch website",
+  openGraph: {
+    title: "Build Your Website | AllSpark Technologies",
+    description:
+      "Build your dream website with AllSpark Technologies — modern, responsive, and optimized for your business growth.",
+    url: "https://buildyourwebsite.allsparktechnologies.com",
+    siteName: "AllSpark Technologies",
+    images: [
+      {
+        url: "https://buildyourwebsite.allsparktechnologies.com/og-image.jpg", // optional
+        width: 1200,
+        height: 630,
+        alt: "Build Your Website",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
 
 export default function RootLayout({
   children,
